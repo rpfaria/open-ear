@@ -78,43 +78,43 @@ const noteWithChordDescriptorMap = ((): Partial<
       solfegeNote: 'Do',
     },
     Do2: {
-      chord: viidim,
+      chord: ii,
       solfegeNote: 'Do',
     },
     Do3: {
-      chord: vi,
-      solfegeNote: 'Do',
-    },
-    Do4: {
-      chord: V,
-      solfegeNote: 'Do',
-    },
-    Do5: {
-      chord: IV,
-      solfegeNote: 'Do',
-    },
-    Do6: {
       chord: iii,
       solfegeNote: 'Do',
     },
+    Do4: {
+      chord: IV,
+      solfegeNote: 'Do',
+    },
+    Do5: {
+      chord: V,
+      solfegeNote: 'Do',
+    },
+    Do6: {
+      chord: vi,
+      solfegeNote: 'Do',
+    },
     Do7: {
-      chord: ii,
+      chord: viidim,
       solfegeNote: 'Do',
     },
     Re1: {
-      chord: ii,
-      solfegeNote: 'Re',
-    },
-    Re2: {
       chord: I,
       solfegeNote: 'Re',
     },
+    Re2: {
+      chord: ii,
+      solfegeNote: 'Re',
+    },
     Re3: {
-      chord: viidim,
+      chord: iii,
       solfegeNote: 'Re',
     },
     Re4: {
-      chord: vi,
+      chord: IV,
       solfegeNote: 'Re',
     },
     Re5: {
@@ -122,15 +122,15 @@ const noteWithChordDescriptorMap = ((): Partial<
       solfegeNote: 'Re',
     },
     Re6: {
-      chord: IV,
+      chord: vi,
       solfegeNote: 'Re',
     },
     Re7: {
-      chord: iii,
+      chord: viidim,
       solfegeNote: 'Re',
     },
     Mi1: {
-      chord: iii,
+      chord: I,
       solfegeNote: 'Mi',
     },
     Mi2: {
@@ -138,43 +138,43 @@ const noteWithChordDescriptorMap = ((): Partial<
       solfegeNote: 'Mi',
     },
     Mi3: {
-      chord: I,
+      chord: iii,
       solfegeNote: 'Mi',
     },
     Mi4: {
-      chord: viidim,
+      chord: IV,
       solfegeNote: 'Mi',
     },
     Mi5: {
-      chord: vi,
-      solfegeNote: 'Mi',
-    },
-    Mi6: {
       chord: V,
       solfegeNote: 'Mi',
     },
+    Mi6: {
+      chord: vi,
+      solfegeNote: 'Mi',
+    },
     Mi7: {
-      chord: IV,
+      chord: viidim,
       solfegeNote: 'Mi',
     },
     Fa1: {
-      chord: IV,
-      solfegeNote: 'Fa',
-    },
-    Fa2: {
-      chord: iii,
-      solfegeNote: 'Fa',
-    },
-    Fa3: {
-      chord: ii,
-      solfegeNote: 'Fa',
-    },
-    Fa4: {
       chord: I,
       solfegeNote: 'Fa',
     },
+    Fa2: {
+      chord: ii,
+      solfegeNote: 'Fa',
+    },
+    Fa3: {
+      chord: iii,
+      solfegeNote: 'Fa',
+    },
+    Fa4: {
+      chord: IV,
+      solfegeNote: 'Fa',
+    },
     Fa5: {
-      chord: viidim,
+      chord: V,
       solfegeNote: 'Fa',
     },
     Fa6: {
@@ -182,15 +182,15 @@ const noteWithChordDescriptorMap = ((): Partial<
       solfegeNote: 'Fa',
     },
     Fa7: {
-      chord: V,
+      chord: viidim,
       solfegeNote: 'Fa',
     },
     Sol1: {
-      chord: V,
+      chord: I,
       solfegeNote: 'Sol',
     },
     Sol2: {
-      chord: IV,
+      chord: ii,
       solfegeNote: 'Sol',
     },
     Sol3: {
@@ -198,55 +198,59 @@ const noteWithChordDescriptorMap = ((): Partial<
       solfegeNote: 'Sol',
     },
     Sol4: {
-      chord: ii,
+      chord: IV,
       solfegeNote: 'Sol',
     },
     Sol5: {
-      chord: I,
+      chord: V,
       solfegeNote: 'Sol',
     },
     Sol6: {
-      chord: viidim,
+      chord: vi,
       solfegeNote: 'Sol',
     },
     Sol7: {
-      chord: vi,
+      chord: viidim,
       solfegeNote: 'Sol',
     },
     La1: {
-      chord: vi,
-      solfegeNote: 'La',
-    },
-    La2: {
-      chord: V,
-      solfegeNote: 'La',
-    },
-    La3: {
-      chord: IV,
-      solfegeNote: 'La',
-    },
-    La4: {
-      chord: iii,
-      solfegeNote: 'La',
-    },
-    La5: {
-      chord: ii,
-      solfegeNote: 'La',
-    },
-    La6: {
       chord: I,
       solfegeNote: 'La',
     },
-    Ti1: {
+    La2: {
+      chord: ii,
+      solfegeNote: 'La',
+    },
+    La3: {
+      chord: iii,
+      solfegeNote: 'La',
+    },
+    La4: {
+      chord: IV,
+      solfegeNote: 'La',
+    },
+    La5: {
+      chord: V,
+      solfegeNote: 'La',
+    },
+    La6: {
+      chord: vi,
+      solfegeNote: 'La',
+    },
+    La7: {
       chord: viidim,
+      solfegeNote: 'La',
+    },
+    Ti1: {
+      chord: I,
       solfegeNote: 'Ti',
     },
     Ti2: {
-      chord: vi,
+      chord: ii,
       solfegeNote: 'Ti',
     },
     Ti3: {
-      chord: V,
+      chord: iii,
       solfegeNote: 'Ti',
     },
     Ti4: {
@@ -254,15 +258,15 @@ const noteWithChordDescriptorMap = ((): Partial<
       solfegeNote: 'Ti',
     },
     Ti5: {
-      chord: iii,
+      chord: V,
       solfegeNote: 'Ti',
     },
     Ti6: {
-      chord: ii,
+      chord: vi,
       solfegeNote: 'Ti',
     },
     Ti7: {
-      chord: I,
+      chord: viidim,
       solfegeNote: 'Ti',
     },
   };
