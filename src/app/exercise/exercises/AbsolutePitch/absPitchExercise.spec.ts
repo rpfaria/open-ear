@@ -1,10 +1,10 @@
 import { testExercise } from '../testing-utility/test-exercise.spec';
 import { expectedTonalExerciseSettingsDescriptors } from '../utility/exerciseAttributes/tonalExercise.spec';
-import { NoteInKeySettings, notesInKeyExercise } from './notesInKeyExercise';
+import { APitchSettings, absPitchExercise } from './absPitchExercise';
 
-describe(notesInKeyExercise.name, () => {
-  const context = testExercise<NoteInKeySettings>({
-    getExercise: notesInKeyExercise,
+describe(absPitchExercise.name, () => {
+  const context = testExercise<APitchSettings>({
+    getExercise: absPitchExercise,
     settingDescriptorList: [
       ...expectedTonalExerciseSettingsDescriptors,
       'Included Scale Degrees',
@@ -19,10 +19,10 @@ describe(notesInKeyExercise.name, () => {
 
   it(`getQuestion with multiple voices`, () => {
     const defaultSettings = context.exercise.getCurrentSettings?.();
-    const settings: NoteInKeySettings = {
+    const settings: APitchSettings = {
       ...defaultSettings!,
-      key: 'random',
-      newKeyEvery: 1,	  
+      key: 'C',
+      newKeyEvery: 1,
     };
 
     for (let range of ['high', 'middle', 'bass', 'contrabass'] as const) {

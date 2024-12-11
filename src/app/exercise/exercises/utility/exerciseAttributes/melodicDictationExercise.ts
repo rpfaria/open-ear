@@ -34,6 +34,7 @@ export interface IMelodicQuestion
    * Use array of arrays for multiple voices
    * */
   segments: OneOrMany<Note[]>;
+  toplay?: OneOrMany<Note[]>;
 }
 
 export function melodicExercise<

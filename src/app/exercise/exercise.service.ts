@@ -10,6 +10,8 @@ import { intervalExercise } from './exercises/IntervalExercise/intervalExercise'
 import { notesInKeyExercise } from './exercises/NotesInKeyExercise/notesInKeyExercise';
 import { notesWithChordsExercise } from './exercises/NotesWithChords/notesWithChordsExercise';
 import { triadInversionExercise } from './exercises/TriadInversionExercise/triadInversionExercise';
+import { absPitchExercise } from './exercises/AbsolutePitch/absPitchExercise';
+import { APMExercise } from './exercises/AbsolutePitchMelodies/APMExercise';
 
 const exerciseList: Exercise[] = [
   notesInKeyExercise(),
@@ -20,6 +22,9 @@ const exerciseList: Exercise[] = [
   notesWithChordsExercise(),
   triadInversionExercise(),
   intervalExercise(),
+  absPitchExercise(),
+  APMExercise(),
+  
 ];
 
 @Injectable({

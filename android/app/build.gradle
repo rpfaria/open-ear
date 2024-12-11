@@ -4,10 +4,10 @@ android {
     namespace "com.openear.www"
     signingConfigs {
       debug {
-        storeFile file('G:\\My Drive\\Computers, Engineering, Games\\OpenEar\\openear.jks')
-        storePassword '4231867590'
-        keyAlias 'openear'
-        keyPassword '4231867590'
+        storeFile file('C:\\Users\\Rodrigo\\StudioProjects\\open-ear-3\\android\\deb.keystore')
+        storePassword 'android'
+        keyAlias 'androiddebugkey'
+        keyPassword 'android'
       }
     }
 

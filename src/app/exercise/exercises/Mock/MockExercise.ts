@@ -43,7 +43,7 @@ export namespace MockExercise {
    * figure out how to make a more flexible test here
    * For example, there are multiple ways to pass in time
    * (Like a custom matcher?)
-   *
+   */
   export const cadenceToPlayExpectation: MatchableArgs<
     PlayerService['playMultipleParts']
   >[0][] = [
@@ -84,5 +84,4 @@ export namespace MockExercise {
       ],
     }),
   ];
-  */
 }
